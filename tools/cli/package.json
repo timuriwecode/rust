@@ -1,0 +1,13 @@
+{
+  "name": "@rcomp/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "rcomp": "./src/main.ts"
+  },
+  "dependencies": {
+    "@rcomp/core": "0.1.0",
+    "@rcomp/pairing": "0.1.0"
+  }
+}

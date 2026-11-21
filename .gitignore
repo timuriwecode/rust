@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Secrets: Rust+ auth token, FCM credentials, player tokens. Never commit these.
+rustplus.config.json
+.rcomp/
+config.local.json
+*.secret.json
+
+# Raw recordings from real servers (may contain SteamIDs and positions)
+recordings/
+!packages/*/test/fixtures/**

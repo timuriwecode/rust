@@ -1,0 +1,13 @@
+{
+  "name": "@rcomp/pairing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@liamcottle/push-receiver": "^0.0.4",
+    "@rcomp/core": "0.1.0"
+  }
+}
